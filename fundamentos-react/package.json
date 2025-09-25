@@ -2,7 +2,6 @@
   "name": "fundamentos-react",
   "private": true,
   "version": "0.1.0",
-  "type": "module",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -1,6 +1,5 @@
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
-render(
-    'Olá React!!!', 
-    document.getElementById('root')
-);
+const tag = <strong>Olá React!!!</strong>;
+render(<div>{tag}</div>, document.getElementById("root"));
