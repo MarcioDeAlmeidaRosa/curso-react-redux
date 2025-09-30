@@ -6,8 +6,12 @@ export default (props) => {
       {/* <Membrer name="Marcio" surname={props.surname} />
       <Membrer name="Elaine" {...props} />
       <Membrer name="Helena" surname={props.surname} /> */}
-      {cloneElement(props.children, { ...props })}
       {/* {props.children} */}
+      {/* {cloneElement(props.children, { ...props })} */}
+
+      {React.Children.map(props.children, (child) => {
+        return cloneElement(child, props);
+      })}
     </>
   );
 };

@@ -18,8 +18,8 @@ export default () => (
       <Cards title="#5 - Membros da Família" color="#ffa8B6">
         <Family surname="Rosa" >
           <Membrer name='Marcio' />
-          {/* <Membrer name='Elaine' />
-          <Membrer name='Helena' /> */}
+          <Membrer name='Elaine' />
+          <Membrer name='Helena' />
         </Family>
       </Cards>
 
