@@ -9,8 +9,12 @@ export default (props) => {
       {/* {props.children} */}
       {/* {cloneElement(props.children, { ...props })} */}
 
-      {React.Children.map(props.children, (child) => {
+      {/* {React.Children.map(props.children, (child) => {
         return cloneElement(child, props);
+      })} */}
+
+      {props.children.map((child, index) => {
+        return cloneElement(child, { ...props, key: index });
       })}
     </>
   );
