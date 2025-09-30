@@ -13,19 +13,19 @@ export default () => (
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
-      <Cards Title="#4 - Desafio aleatório">
+      <Cards title="#4 - Desafio aleatório" color='#a0d2eb'>
         <Random minValue={1} maxValue={100} />
       </Cards>
 
-      <Cards Title="#3.1 - Usando Fragment">
+      <Cards title="#3.1 - Usando Fragment" color='#e5eaf5'>
         <Fragment />
       </Cards>
 
-      <Cards Title="#3 - Usando Fragment 2">
+      <Cards title="#3 - Usando Fragment 2" color='#d0bdf4'>
         <Fragment1 />
       </Cards>
 
-      <Cards Title="#2 - Situação do Aluno">
+      <Cards title="#2 - Situação do Aluno" color='#8458B3'>
         <ComParametro
           titulo="Situação do Aluno"
           aluno="Marcio de Almeida Rosa"
@@ -33,7 +33,7 @@ export default () => (
         />
       </Cards>
 
-      <Cards Title="#1 - Usando Primeiro">
+      <Cards title="#1 - Usando Primeiro" color='#a28089'>
         <Primeiro />
       </Cards>
     </div>
