@@ -9,17 +9,24 @@ import Random from "./components/basics/Random";
 import Cards from "./components/layout/Cards";
 import Family from "./components/basics/Family";
 import Membrer from "./components/basics/Membrer";
+import StudentList from "./components/repetition/studentList";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
+      <Cards title="#6 - Repetição" color="#51e2f5">
+        <StudentList />
+      </Cards>
+    </div>
+
+    <div className="Cards">
       <Cards title="#5 - Membros da Família" color="#ffa8B6">
-        <Family surname="Rosa" >
-          <Membrer name='Marcio' />
-          <Membrer name='Elaine' />
-          <Membrer name='Helena' />
+        <Family surname="Rosa">
+          <Membrer name="Marcio" />
+          <Membrer name="Elaine" />
+          <Membrer name="Helena" />
         </Family>
       </Cards>
 
