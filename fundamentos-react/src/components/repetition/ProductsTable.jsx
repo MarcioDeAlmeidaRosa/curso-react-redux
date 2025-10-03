@@ -1,6 +1,6 @@
 import React from "react";
 import Products from "../../data/products";
-import "./productsTable.css";
+import "./ProductsTable.css";
 
 export default (props) => {
   const money = new Intl.NumberFormat("pt-BR", {

@@ -9,9 +9,9 @@ import Random from "./components/basics/Random";
 import Cards from "./components/layout/Cards";
 import Family from "./components/basics/Family";
 import Membrer from "./components/basics/Membrer";
-import StudentList from "./components/repetition/studentList";
-import ProductsTable from "./components/repetition/productsTable";
-import EvenOrOdd from "./components/conditional/evenOrOdd";
+import StudentList from "./components/repetition/StudentList";
+import ProductsTable from "./components/repetition/ProductsTable";
+import EvenOrOdd from "./components/conditional/EvenOrOdd";
 import UserInfo from "./components/conditional/UserInfo";
 
 export default () => (
