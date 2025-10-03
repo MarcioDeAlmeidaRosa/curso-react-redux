@@ -17,18 +17,18 @@ export default () => (
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
-      <Cards title="#7 - Desafio Repetição" color="#F54927">
-        <ProductsTable />
-      </Cards>
-    </div>
+      <div className="Cards">
+        <Cards title="#7 - Desafio Repetição" color="#F54927">
+          <ProductsTable />
+        </Cards>
+      </div>
 
-    <div className="Cards">
-      <Cards title="#6 - Repetição" color="#51e2f5">
-        <StudentList />
-      </Cards>
-    </div>
+      <div className="Cards">
+        <Cards title="#6 - Repetição" color="#51e2f5">
+          <StudentList />
+        </Cards>
+      </div>
 
-    <div className="Cards">
       <Cards title="#5 - Membros da Família" color="#ffa8B6">
         <Family surname="Rosa">
           <Membrer name="Marcio" />

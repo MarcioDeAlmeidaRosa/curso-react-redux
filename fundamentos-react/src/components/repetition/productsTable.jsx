@@ -27,7 +27,7 @@ export default (props) => {
             </tr>
           ) : (
             Products.map((product, index) => (
-              <tr key={product.id} className={index % 2 == 0 ? "even" : "odd"}>
+              <tr key={product.id} className={index % 2 === 0 ? "even" : "odd"}>
                 <td>{product.id}</td>
                 <td>{product.name}</td>
                 <td className="num">{money.format(product.price)}</td>
