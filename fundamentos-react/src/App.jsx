@@ -12,32 +12,33 @@ import Membrer from "./components/basics/Membrer";
 import StudentList from "./components/repetition/studentList";
 import ProductsTable from "./components/repetition/productsTable";
 import EvenOrOdd from "./components/conditional/evenOrOdd";
+import UserInfo from "./components/conditional/UserInfo";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
-      <div className="Cards">
-        <Cards title="#8 - Par ou impar" color="#F54927">
-          <EvenOrOdd value={1}/>
-          <EvenOrOdd value={2}/>
-          <EvenOrOdd value={3}/>
-          <EvenOrOdd value={100}/>
-        </Cards>
-      </div>
+      <Cards title="#9 - Condicional" color="#B0918D">
+        <UserInfo user={{ name: "Marcio" }} />
+        <UserInfo user={{}} />
+        <UserInfo />
+      </Cards>
 
-      <div className="Cards">
-        <Cards title="#7 - Desafio Repetição" color="#F54927">
-          <ProductsTable />
-        </Cards>
-      </div>
+      <Cards title="#8 - Par ou impar" color="#F54927">
+        <EvenOrOdd value={1} />
+        <EvenOrOdd value={2} />
+        <EvenOrOdd value={3} />
+        <EvenOrOdd value={100} />
+      </Cards>
 
-      <div className="Cards">
-        <Cards title="#6 - Repetição" color="#51e2f5">
-          <StudentList />
-        </Cards>
-      </div>
+      <Cards title="#7 - Desafio Repetição" color="#F54927">
+        <ProductsTable />
+      </Cards>
+
+      <Cards title="#6 - Repetição" color="#51e2f5">
+        <StudentList />
+      </Cards>
 
       <Cards title="#5 - Membros da Família" color="#ffa8B6">
         <Family surname="Rosa">
