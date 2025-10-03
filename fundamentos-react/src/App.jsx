@@ -10,10 +10,17 @@ import Cards from "./components/layout/Cards";
 import Family from "./components/basics/Family";
 import Membrer from "./components/basics/Membrer";
 import StudentList from "./components/repetition/studentList";
+import ProductsTable from "./components/repetition/productsTable";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
+
+    <div className="Cards">
+      <Cards title="#7 - Desafio Repetição" color="#F54927">
+        <ProductsTable />
+      </Cards>
+    </div>
 
     <div className="Cards">
       <Cards title="#6 - Repetição" color="#51e2f5">

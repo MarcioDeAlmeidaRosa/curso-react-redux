@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ComParametro(props) {
-  console.log(props);
   const { titulo, aluno, nota } = props;
   const situacao = nota >= 9 ? "Aprovado" : "de Recuperação";
   return (
