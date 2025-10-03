@@ -11,12 +11,22 @@ import Family from "./components/basics/Family";
 import Membrer from "./components/basics/Membrer";
 import StudentList from "./components/repetition/studentList";
 import ProductsTable from "./components/repetition/productsTable";
+import EvenOrOdd from "./components/conditional/evenOrOdd";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
+      <div className="Cards">
+        <Cards title="#8 - Par ou impar" color="#F54927">
+          <EvenOrOdd value={1}/>
+          <EvenOrOdd value={2}/>
+          <EvenOrOdd value={3}/>
+          <EvenOrOdd value={100}/>
+        </Cards>
+      </div>
+
       <div className="Cards">
         <Cards title="#7 - Desafio Repetição" color="#F54927">
           <ProductsTable />
