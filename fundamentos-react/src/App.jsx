@@ -21,8 +21,6 @@ export default () => (
     <div className="Cards">
       <Cards title="#9 - Condicional" color="#B0918D">
         <UserInfo user={{ name: "Marcio" }} />
-        <UserInfo user={{}} />
-        <UserInfo />
       </Cards>
 
       <Cards title="#8 - Par ou impar" color="#F54927">
