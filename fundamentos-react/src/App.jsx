@@ -1,26 +1,31 @@
 import "./App.css";
 import React from "react";
 
-import Primeiro from "./components/basics/Primeiro";
-import ComParametro from "./components/basics/ComParametro";
-import Fragment from "./components/basics/Fragment";
-import Fragment1 from "./components/basics/Fragment1";
-import Random from "./components/basics/Random";
-import Cards from "./components/layout/Cards";
-import Family from "./components/basics/Family";
-import Membrer from "./components/basics/Membrer";
-import StudentList from "./components/repetition/StudentList";
-import ProductsTable from "./components/repetition/ProductsTable";
-import EvenOrOdd from "./components/conditional/EvenOrOdd";
-import UserInfo from "./components/conditional/UserInfo";
-import DirectFather from './components/communication/Direct/DirectFather';
+import Input from './components/forms/Input';
 import IndirectFather from './components/communication/Indirect/IndirectFather' ;
+import DirectFather from './components/communication/Direct/DirectFather';
+import UserInfo from "./components/conditional/UserInfo";
+import EvenOrOdd from "./components/conditional/EvenOrOdd";
+import ProductsTable from "./components/repetition/ProductsTable";
+import StudentList from "./components/repetition/StudentList";
+import Membrer from "./components/basics/Membrer";
+import Family from "./components/basics/Family";
+import Cards from "./components/layout/Cards";
+import Random from "./components/basics/Random";
+import Fragment1 from "./components/basics/Fragment1";
+import Fragment from "./components/basics/Fragment";
+import ComParametro from "./components/basics/ComParametro";
+import Primeiro from "./components/basics/Primeiro";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
+      <Cards title="#12 - Controlled Components (imput)" color="#d0bdf4">
+        <Input  />
+      </Cards>
+
       <Cards title="#11 - Comunicação inddireta - fihlo envia pai" color="#e5eaf5">
         <IndirectFather  />
       </Cards>
