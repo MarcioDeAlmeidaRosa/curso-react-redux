@@ -14,12 +14,17 @@ import ProductsTable from "./components/repetition/ProductsTable";
 import EvenOrOdd from "./components/conditional/EvenOrOdd";
 import UserInfo from "./components/conditional/UserInfo";
 import DirectFather from './components/communication/Direct/DirectFather';
+import IndirectFather from './components/communication/Indirect/IndirectFather' ;
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
+      <Cards title="#11 - Comunicação inddireta - fihlo envia pai" color="#e5eaf5">
+        <IndirectFather  />
+      </Cards>
+
       <Cards title="#10 - Comunicação direta" color="#a0d2eb">
         <DirectFather user={{ name: "Marcio" }} />
       </Cards>
