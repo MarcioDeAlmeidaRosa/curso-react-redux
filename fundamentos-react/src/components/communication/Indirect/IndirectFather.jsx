@@ -16,9 +16,9 @@ export default (props) => {
   }
   return (
     <div>
-      <span>Nome: {name} </span>
-      <span>Idade: {age} </span>
-      <span>Nerd: {nerd ? "Sim" : "Não"}</span>
+      <span>Name: {name} </span>
+      <span>Years: {age} </span>
+      <span>Nerd: {nerd ? "Yes" : "No"}</span>
       <IndirectChildren clickHere={receiveInformation} />
     </div>
   );
