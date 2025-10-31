@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 
+import Counter from './components/counter/Counter';
 import Input from './components/forms/Input';
 import IndirectFather from './components/communication/Indirect/IndirectFather' ;
 import DirectFather from './components/communication/Direct/DirectFather';
@@ -22,6 +23,10 @@ export default () => (
     <h1>Fundamentos React (Arrow)</h1>
 
     <div className="Cards">
+      <Cards title="#13 - Contador #1" color="#a28089">
+        <Counter initialNumber={0} />
+      </Cards>
+
       <Cards title="#12 - Controlled Components (imput)" color="#d0bdf4">
         <Input  />
       </Cards>
